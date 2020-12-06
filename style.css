@@ -1,73 +1,90 @@
 * {
+    /*set default margin and padding to 0*/
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 body {
-    width: 100%;
+    /*set styles for body content*/
+    width: auto;
     background-color: #c0c0c0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*Use block so that each container is displayed below each other*/
     display:block;
+    /*Set padding so body elements are spaced away from browser borders*/
     padding: 50px 150px 50px 100px;
     line-height: 1.5;
 }
 header {
-    width:100%;
+    /*Use flex to space header content to each end of the site*/
     display: flex;
     justify-content: space-between;
 }
 a {
+    /*Set default decoration style for all anchor tags*/
     text-decoration: none;
 }
-
 .navigation li {
+    /*Add padding between list elements to avoid clutter*/
     padding: 10px;
+    /*display navigation list as a horizontal list*/
     display: inline;
-    font-size: larger;
-    cursor: pointer;
+    font-size: 1.5vw;
+
 }
 .name {
     width: 200px;
     position: relative;
     font-size: x-large;
+    /*reposition name so that is stays centered in the page*/
     left: 45%;
     margin-top: 50px;
 }
 .container1 {
+    /*use flex so text and image display side by side with no overlap*/
     display: flex;
-    width: auto;
     height: 400px;
 }
 .whoAmI {
+    /*auto margin so the text centers in the container*/
     margin: auto;
+    /*add padding between text and image for easier viewing*/
     padding-right: 30px;
+    font-size: 1vw;
 }
 .container1 img{
+    /*auto margin to center image in container*/
     margin:auto;
+    /*set top margin so image stays in line with text*/
     margin-top: 50px;
 }
 .container2 {   
     display: flex;
-    width: auto;
     height: 400px;
 }
-.right {
+.goals {
+    /*auto margin to center text in container*/
     margin: auto;
+    font-size: 1vw;
 }
 .container3 {
     display: flex;
+    /*display as verticle flex */
     flex-direction: column;
-    width: auto;
     height: auto;
-    
 }
 .socials{
     margin-top: 20px;
+    /*remove bullets from list*/
     list-style: none;
+    font-size: 1vw;
 }
 .projects {
+    /*Add spacing between header*/
     margin-top: 50px;
+    font-size: 1vw;
 }
 .list {
+    /*add spacing between list and text*/
     margin-top: 20px;
 }
