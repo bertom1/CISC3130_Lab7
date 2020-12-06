@@ -29,16 +29,19 @@ a {
     padding: 10px;
     /*display navigation list as a horizontal list*/
     display: inline;
+    /*set responsive text size*/
     font-size: 3vh;
 
 }
 .name {
-    width: 200px;
-    position: relative;
-    font-size: x-large;
+    font-size: 3vh;
     /*reposition name so that is stays centered in the page*/
-    left: 45%;
+    text-align: center;
     margin-top: 50px;
+}
+.name img {
+    max-width: 100%;
+    height: auto;
 }
 .container1 {
     /*use flex so text and image display side by side with no overlap*/
@@ -50,6 +53,7 @@ a {
     margin: auto;
     /*add padding between text and image for easier viewing*/
     padding-right: 30px;
+    /*set responsive text size*/
     font-size: 2vh;
 }
 .container1 img{
@@ -65,6 +69,7 @@ a {
 .goals {
     /*auto margin to center text in container*/
     margin: auto;
+    /*set responsive text size*/
     font-size: 2vh;
 }
 .container3 {
