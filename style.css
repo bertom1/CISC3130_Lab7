@@ -29,7 +29,7 @@ a {
     padding: 10px;
     /*display navigation list as a horizontal list*/
     display: inline;
-    font-size: 1.5vw;
+    font-size: 3vh;
 
 }
 .name {
@@ -50,7 +50,7 @@ a {
     margin: auto;
     /*add padding between text and image for easier viewing*/
     padding-right: 30px;
-    font-size: 1vw;
+    font-size: 2vh;
 }
 .container1 img{
     /*auto margin to center image in container*/
@@ -65,7 +65,7 @@ a {
 .goals {
     /*auto margin to center text in container*/
     margin: auto;
-    font-size: 1vw;
+    font-size: 2vh;
 }
 .container3 {
     display: flex;
@@ -77,12 +77,12 @@ a {
     margin-top: 20px;
     /*remove bullets from list*/
     list-style: none;
-    font-size: 1vw;
+    font-size: 2vh;
 }
 .projects {
     /*Add spacing between header*/
     margin-top: 50px;
-    font-size: 1vw;
+    font-size: 2vh;
 }
 .list {
     /*add spacing between list and text*/
